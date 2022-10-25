@@ -1,0 +1,46 @@
+.header-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1%;
+    transition: 300ms;
+    margin-right: 1%;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.header-container .mvm-icon{
+    
+    width: 3vw;
+}
+
+.header-container .header-right{
+    margin-top: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 300ms;
+    margin-top: 0vw;
+
+}
+
+.header-container .header-right:hover{
+    opacity: 100%;
+}
+
+.header-container .header-text{
+
+    font-family : Acumin Variable Concept, sans-serif;
+    font-weight : bold;
+    text-align: center;
+    font-size: 1vw;
+
+    margin-left: 85%;
+
+    transition: 300ms;
+}   
+
+.header-container .header-text:hover{
+    color: #C4D601;
+    text-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+}
+

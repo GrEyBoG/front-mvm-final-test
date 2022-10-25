@@ -1,0 +1,234 @@
+.table-container{
+    position: absolute;
+    z-index: 3;
+    background-color: #161922;
+    width: 90%;
+    min-height: 58%;
+    max-height: 58%;
+
+    margin-left: 5%;
+    margin-top: 3%;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border:#C4D601 solid 2px;
+
+    transition: 300ms;
+    
+    animation: appear 1s, toLeft 3.5s ease-in-out;
+
+    overflow: scroll;
+}
+
+.table-container:hover{
+    box-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+}
+
+.table-container table{
+    width: 100%;
+    min-height: 58%;
+    max-height: 58%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: hidden;
+    animation: appear 4s ease-in-out;
+}
+
+.table-container table thead{
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #C4D601;
+    background: linear-gradient(to bottom, #161922 93%, #C4D601 93%);
+}
+
+.table-container table thead tr th{
+    color: #C4D601;
+    text-align: center;
+    font-family : Acumin Variable Concept, sans-serif;
+    font-weight : bold;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.table-container table tbody{
+    text-align: center;
+    font-family : Acumin Variable Concept, sans-serif;
+    font-weight : bold;
+    text-align: center;
+    font-size: 0.75vw;
+    overflow: scroll;
+}
+
+.table-container table tbody tr td .descriptionIcon{
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    cursor: pointer;
+}
+
+.table-container table tbody tr td .saveIcon{
+    width: 1.3vw;
+    height: 1.3vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    cursor: pointer;
+    
+}
+
+.table-container table tbody tr td .aDateInput{
+    height: 1.7vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    cursor: pointer;
+    background: #C4D601;
+    border: none;
+    border-radius: 5px;
+    color: #161922;
+    text-justify: center;
+    text-align: center;
+    font-family : Acumin Variable Concept, sans-serif;
+    font-weight : normal;
+    text-align: center;
+    font-size: 0.75vw;
+
+    transition: 300ms;
+}
+
+.table-container table tbody tr td .aDateInput:hover{
+    box-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+}
+
+.table-container table tbody tr td .aDateInput:focus{
+    box-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+}
+
+.table-container table tbody tr td .managerSelect{
+    height: 5vw;
+    text-align: center;
+    font-family : Acumin Variable Concept, sans-serif;
+    font-weight : normal;
+    text-align: center;
+    font-size: 0.75vw;
+}
+    
+
+.table-container table th{
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    
+}
+
+.table-container table tr:hover td{
+    text-shadow: 0px 0px 10px rgba(196, 214, 1, 0.55);
+    color: #C4D601;
+}
+
+.table-container table td{
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+
+}
+
+select{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 90%;
+    height: 1.3vw;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #C4D601;
+    padding: 0 4px 0 4px;
+    
+    font-family : Acumin Variable Concept, sans-serif;
+    font-weight : normal;
+    font-size: 1vw;
+    color: #161922;
+
+    background-color: #C4D601;
+
+    border: #C4D601 solid 2px;
+
+    transition: 300ms; 
+}
+
+select:hover{
+    box-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+}
+
+select:focus{
+    box-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+}
+
+option{
+    background-color: #fff;
+    color: #161922;
+}
+
+/* Description */
+
+.description-container{
+    position: absolute;
+    z-index: 3;
+    background-color: #161922;
+    width: 90%;
+    max-height: 17%;
+
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border:#C4D601 solid 2px;
+    transition: 300ms;
+    
+    animation: appear 1s, toUp 0.3s ease-in-out;
+    overflow: scroll;   
+
+    margin-bottom: 5%;
+}
+
+.description-container:hover{
+    box-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+}
+
+.description-container{
+    margin-top: 34%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.description-container .description-title{
+    width: 100%;
+    height: 5%;
+    background-color: #C4D601;
+    border-radius: 1px 1px 0px 0px;
+    text-align: center;
+    font-family : Acumin Variable Concept, sans-serif;
+    font-weight : bold;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.description-container .description-title .title-text{
+    color: #161922;
+    margin-bottom: 0.5%;
+}
+
+.description-container .description-text{
+    width: 100%;
+    height: 95%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    background-color: #161922;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    font-family : Acumin Variable Concept, sans-serif;
+    font-weight : normal;
+    text-align: center;
+    font-size: 1vw;
+}

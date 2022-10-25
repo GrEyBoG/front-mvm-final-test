@@ -1,0 +1,33 @@
+.footer-container{
+    width: 100%;
+
+    margin-top: 0%;
+
+    display: flex;
+
+    background: #C4D601;
+}
+
+.footer-container div{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+    width: 100%;
+
+    display: flex;
+
+}
+
+.footer-container p{
+    color: #161922;
+    font-family : Acumin Variable Concept, sans-serif;
+    font-weight : normal;
+}
+
+.footer-container h3{
+    color: #161922;
+    font-family : Acumin Variable Concept, sans-serif;
+    font-weight : bold;
+}

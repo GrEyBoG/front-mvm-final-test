@@ -1,0 +1,22 @@
+*{
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #161922;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+}
+
+main{
+    overflow: hidden;
+}
+

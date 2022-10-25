@@ -1,0 +1,158 @@
+
+/* TextImages */
+.main-presentation .textImages-container{
+    position: absolute;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 10%;
+    z-index: 2;
+}
+
+.main-presentation .textImages-container .textImage-1{
+    width: 82.3vw;
+    animation: toLeft 3s alternate ease-in-out;
+    transition: 700ms ease-in-out;
+}
+
+.main-presentation .textImages-container .textImage-1:hover{
+    margin-left: -15%;
+}
+
+.main-presentation .textImages-container .textImage-2{
+    width: 82.3vw;
+    animation: toRigth 2s alternate ease-in-out;
+    transition: 700ms ease-in-out;
+}
+
+.main-presentation .textImages-container .textImage-2:hover{
+    margin-left: 23%;
+}
+
+.main-presentation .textImages-container .textImage-3{
+    width: 82.3vw;
+    animation: toLeft 3.5s alternate ease-in-out;
+    transition: 700ms ease-in-out;
+}
+
+.main-presentation .textImages-container .textImage-3:hover{
+    margin-left: -15%;
+}
+
+.main-presentation .textImages-container .textImage-4{
+    width: 82.3vw;
+    animation: toRigth 2.5s alternate ease-in-out;
+    transition: 700ms ease-in-out;
+}
+
+.main-presentation .textImages-container .textImage-4:hover{
+    margin-left: 23%;
+}
+
+@keyframes toLeft {
+    from{
+        margin-left: -100%;
+    }
+
+    to{
+        
+    }
+}
+
+@keyframes toRigth {
+    from{
+        margin-left: 200%;
+    }
+
+    to{
+        
+    }
+}
+
+/* Text */
+.main-presentation .text-container{
+    box-sizing: border-box;
+    font-family: vortice-concept,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 3px 3px 20px rgba(30, 21, 21, 0.20);
+}
+
+.main-presentation .text-container .mvm-title{
+    position: absolute;
+    z-index: 3;
+    font-size: 9.5vw;
+    margin-left: 31.3%;
+    margin-top: 15%;
+    animation: appear 1s alternate ease-in-out;
+    transition: 2s;
+}
+
+.main-presentation .text-container .mvm-title:hover{
+    text-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+    font-size: 10vw;
+    margin-left: 30.5%;
+}
+
+.main-presentation .text-container .subtitle{
+    position: absolute;
+    z-index: 3;
+    font-size: 4.81vw;
+    margin-left: 8%;
+    margin-top: 30%;
+    animation: appear 5s, blink 4s alternate ease-in-out;
+    transition: 2s;
+}
+
+.main-presentation .text-container .subtitle:hover{
+    color:rgba(196, 214, 1, 0.97);
+}
+
+/*     box-shadow:  0px 0px 20px rgba(196, 214, 1, 0.97); */
+
+@keyframes appear {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes appearFlash {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    0%{
+        text-shadow: 0px 0px 1000000px #C4D601;
+
+    }
+    5%{
+        text-shadow: none;
+    }
+    75%{
+        text-shadow: none;
+    }
+    80%{
+        text-shadow: none;
+    }
+    92%{
+        text-shadow:0px 0px 1000000px #C4D601;
+    }
+    94%{
+        text-shadow:  none
+    }
+    97%{
+        text-shadow: none;
+        text-shadow: 0px 0px 1000000px #C4D601;
+    }
+    100%{
+        text-shadow: none;
+    }
+}
+

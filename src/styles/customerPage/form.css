@@ -1,0 +1,199 @@
+.form-container{
+    margin-left: 22%;
+    margin-top: 55%;
+    margin-bottom: 25%;
+    width: 52.5%;
+
+    
+    border-top: #C4D601 solid 0.1vw;
+    border-left: #C4D601 solid 0.1vw;
+    border-right: #C4D601 solid 0.1vw;
+    border-bottom: #C4D601 solid 0.1vw;
+
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+
+    transition: 700ms;
+
+}
+
+.form-container:hover{
+    box-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+}
+
+.form-container form{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.form-container form .inputs-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container form label{
+    font-family : Acumin Variable Concept, sans-serif;
+    font-weight : normal;
+    text-align: center;
+    font-size: 1.5vw;
+    color: #C4D601;
+}
+
+.form-container form input{
+    margin-top: 6%;
+    margin-bottom: 6%;
+
+    width: 17.33vw;
+    height: 2vw;
+    
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #C4D601;
+    padding: 0 4px 0 4px;
+
+    font-family : Acumin Variable Concept, sans-serif;
+    font-weight : normal;
+    text-align: center;
+    font-size: 1vw;
+    color: #161922;
+
+    transition: 300ms;
+}
+
+.form-container form input:hover{
+    box-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+}
+
+.form-container form input:focus{
+    box-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+}
+
+.form-container form textarea{
+    max-width: 42.3vw;
+    min-width: 42.3vw;
+    min-height: 15vw;
+    margin-top: 6%;
+    margin-bottom: 6%;
+
+    border: 1px solid #C4D601;
+    font-family : Acumin Variable Concept, sans-serif;
+    font-weight : normal;
+    text-align: left;
+    font-size: 1vw;
+    color: #161922;
+
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 1%;
+
+    transition: 300ms;
+}
+
+.form-container form textarea:hover{
+    box-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+}
+
+.form-container form textarea:focus{
+    box-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+}
+
+.form-container form .inputs-container select{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 100%;
+    height: 2vw;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #C4D601;
+    padding: 0 4px 0 4px;
+    
+    font-family : Acumin Variable Concept, sans-serif;
+    font-weight : normal;
+    font-size: 1vw;
+    color: #161922;
+
+    transition: 300ms; 
+}
+
+.form-container form .inputs-container select:hover{
+    box-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+}
+
+.form-container form .inputs-container select:focus{
+    box-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+}
+
+.form-container form .inputs-container option{
+    background-color: #fff;
+    color: #161922;
+}
+
+.form-container form .inputs-container .form-left{
+    display: block;
+    margin-right: 25%;
+}
+    
+.form-container form button{
+    border: 0;
+    width:12vw;
+    height: 3.5vw;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    border-radius: 5%;
+    font-size:11px;
+    line-height:32px;
+
+    font-family : Acumin Variable Concept, sans-serif;
+    font-weight : bold;
+    text-align: center;
+    font-size: 1.5vw;
+    color: #161922;
+    background-color: #C4D601;
+    cursor: pointer;
+
+    margin-left: 117%;
+
+    transition: 300ms;
+}
+
+.form-container form button:hover{
+    box-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+}
+
+.form-container .header{
+    width: 101.1%;
+    height: 2vw;
+    background: #C4D601;
+    margin-top: -0.2%;
+    margin-left: -0.5%;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    display: flex;
+}
+
+.form-container .header .circle{
+    margin-left: 2%;
+    margin-top: 0.8%;
+
+    width: 1vw;
+    height: 1vw;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+
+    background: #fff;
+
+}
+

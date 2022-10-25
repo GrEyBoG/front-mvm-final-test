@@ -1,0 +1,80 @@
+.background-container .customer-manager-text{
+    width: 75vw;
+    margin-left: 12.5%;
+    overflow: hidden;
+
+    animation: toDown 3s ease-in-out;
+
+    transition: 700ms ease-in-out;
+}
+
+.background-container .customer-manager-text:hover{
+    width: 95vw;
+    margin-left: 3.5%;
+    margin-top: -1.4%;
+}
+
+.background-container h1{
+    box-sizing: border-box;
+    font-family: vortice-concept,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 3px 3px 20px rgba(30, 21, 21, 0.20);
+
+    position: absolute;
+    z-index: 3;
+    font-size: 3.81vw;
+    margin-left: 17%;
+    margin-top: -2.5%;
+    animation: appear 5s, blink 4s alternate ease-in-out;
+    transition: 2s;
+}
+
+.background-container h1:hover{
+    text-shadow: 0px 0px 20px rgba(196, 214, 1, 0.97);
+}
+
+.background-container .circle{
+    position: absolute;
+    z-index: 2;
+    width: 40vw ;
+    height: 40vw    ;
+    border-radius: 50%;
+    background-color: #c4d601;
+
+    margin-top: -7%;
+    margin-left: 30%;
+
+    animation: toUp 3s ease-in-out;
+
+    transition: 700ms;
+}
+
+.background-container .circle:hover{
+    width: 45vw;
+    height: 45vw;
+    margin-left: 27%;
+    margin-top: -14%;
+}
+
+@keyframes toUp {
+    0%{
+        opacity: 0;
+        transform: translateY(200%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }    
+}
+
+@keyframes toDown{
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }    
+}
